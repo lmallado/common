@@ -11,7 +11,7 @@ namespace common
     public class mail : configs,IDisposable
     {
         #region public vars
-        public string ErrorMessage { get; set; }
+        public String ErrorMessage { get; set; }
         public List<string> attachments { get; set; }
         public List<string> mailto { get; set; }
         public List<string> mailcc { get; set; }
