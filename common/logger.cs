@@ -11,7 +11,7 @@ namespace common
         public String ErrorMessage { get; set; }
         private String filename;
         private XDocument doc;
-        private String ProgramName;
+        private string ProgramName;
         public logger(string xmlpath, string ProgramDescription)
         {
             this.xmldirectory = xmlpath;
