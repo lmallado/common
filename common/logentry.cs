@@ -9,6 +9,6 @@ namespace common
     {
        public String LogEntryTime { get; set; }
        public String LogEventDescription { get; set; }
-       public String Message { get; set; }
+       public string Message { get; set; }
     }
 }
